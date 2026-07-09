@@ -49,11 +49,9 @@ const I18N = {
       eyebrow:"Get involved", headline:"Two ways to start, one ecosystem to grow with.", certified:"Applications open", join:"Apply",
       p1duration:"First 100", p1name:"Founding Partner", p1desc:"Join the founding generation of university student leaders shaping MavWise from day one, with mentorship, priority access and real-world application through Practice Engines\u2122.",
       p1skill1:"Leadership", p1skill2:"Practice Engines\u2122", p1skill3:"Mentorship",
-      p2duration:"Internship", p2name:"Founding Execution Team", p2desc:"For university students and fresh graduates ready to help build MavWise itself, across technology, creative media and business, ahead of the official Soft Launch.",
-      p2skill1:"Technology", p2skill2:"Creative Media", p2skill3:"Business",
       p3duration:"Ongoing", p3name:"Practice Engines\u2122", p3desc:"Structured real-world learning environments where every capability you build gets applied through real conversations, challenges and responsibilities.",
       p3skill1:"Learn", p3skill2:"Apply", p3skill3:"Grow",
-      p2cert:"Now hiring", p3cert:"Core ecosystem", p2join:"Explore", p3join:"Discover"
+      p3cert:"Core ecosystem", p3join:"Discover"
     },
     testi: {
       eyebrow:"Our philosophy", headline:"Confidence is built, never downloaded.",
@@ -111,11 +109,9 @@ const I18N = {
       eyebrow:"Sertai kami", headline:"Dua cara untuk bermula, satu ekosistem untuk berkembang bersama.", certified:"Permohonan dibuka", join:"Mohon",
       p1duration:"100 Pertama", p1name:"Rakan Pengasas", p1desc:"Sertai generasi pengasas pemimpin pelajar universiti yang membentuk MavWise sejak hari pertama, dengan bimbingan, akses keutamaan dan aplikasi dunia sebenar melalui Practice Engines\u2122.",
       p1skill1:"Kepimpinan", p1skill2:"Practice Engines\u2122", p1skill3:"Bimbingan Mentor",
-      p2duration:"Internship", p2name:"Pasukan Pelaksana Pengasas", p2desc:"Untuk pelajar universiti dan graduan baharu yang bersedia membantu membina MavWise itu sendiri, merentasi teknologi, media kreatif dan perniagaan, sebelum Pelancaran Lembut rasmi.",
-      p2skill1:"Teknologi", p2skill2:"Media Kreatif", p2skill3:"Perniagaan",
       p3duration:"Berterusan", p3name:"Practice Engines\u2122", p3desc:"Persekitaran pembelajaran dunia sebenar yang tersusun, di mana setiap kemahiran yang anda bina diamalkan melalui perbualan, cabaran dan tanggungjawab sebenar.",
       p3skill1:"Belajar", p3skill2:"Amal", p3skill3:"Berkembang",
-      p2cert:"Sedang mengambil", p3cert:"Teras ekosistem", p2join:"Terokai", p3join:"Ketahui lagi"
+      p3cert:"Teras ekosistem", p3join:"Ketahui lagi"
     },
     testi: {
       eyebrow:"Falsafah kami", headline:"Keyakinan dibina, bukan dimuat turun.",
