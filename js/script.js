@@ -6,130 +6,128 @@
 
 const I18N = {
   en: {
-    nav: { reality:"The Reality", how:"How It Works", programs:"Programs", community:"Community", cta:"Join MavWise" },
+    nav: { reality:"The Gap", how:"The Cycle", programs:"Get Involved", community:"Founding Partners", cta:"Become a Founding Partner" },
     hero: {
-      eyebrow:"A movement for future builders",
-      headline:"Your degree is only the beginning.",
-      sub:"Transform your knowledge into real-world skills through practical projects, mentorship and future-ready experience.",
-      ctaPrimary:"Join MavWise", ctaSecondary:"Explore programs",
-      stat1:"Future builders", stat2:"Industry mentors", stat3:"Completion rate",
-      card1:"AI Fundamentals", card2:"Live Mentorship"
+      eyebrow:"Phase Zero · Applications open for our first 100",
+      headline:"University prepares you academically. MavWise prepares you for life.",
+      sub:"MavWise is a Youth Development Ecosystem that bridges the gap between academic learning and the real world — through practical learning, real-world application and meaningful opportunities.",
+      ctaPrimary:"Become a Founding Partner", ctaSecondary:"Explore Practice Engines\u2122",
+      stat1:"Founding Partners", stat2:"Soft launch", stat3:"Cohort",
+      card1:"AI & Technology", card2:"Founding Team Mentorship"
     },
     reality: {
       eyebrow:"The gap",
-      headline:"Education gives you knowledge. Experience gives you advantage.",
-      body:"Most students graduate with theory, certificates and knowledge, but without the practical experience employers actually look for. MavWise closes that gap.",
-      withoutLabel:"Without MavWise", withLabel:"With MavWise",
-      without1:"Theory, but limited practical experience", without2:"Certificates, but no real portfolio", without3:"Knowledge, but low confidence",
-      with1:"Real projects you actually build and ship", with2:"A live portfolio employers can see", with3:"Mentor feedback and industry-ready confidence"
+      headline:"Knowledge alone is no longer enough.",
+      body:"Traditional education has successfully equipped generations with knowledge, but today's employers look for graduates who can communicate, collaborate, solve problems and create value from day one. That's why Practice Engines\u2122 exist \u2014 not to replace education, but to complement it.",
+      withoutLabel:"Without Practice Engines\u2122", withLabel:"With Practice Engines\u2122",
+      without1:"Theory learned, rarely applied", without2:"Certificates, but no lived experience", without3:"Capabilities only developed after entering the workforce",
+      with1:"Every lesson becomes an opportunity to practise", with2:"Real conversations, real challenges, real responsibility", with3:"Confidence built through consistent action, not theory"
     },
     how: {
-      eyebrow:"The path", headline:"How MavWise works", sub:"Four stages that turn what you know into what you can do.",
-      card1Title:"Learn", card1Body:"Gain future-ready knowledge across AI, technology and modern industry skills.",
-      card2Title:"Build", card2Body:"Create real-world projects that become the portfolio you show employers.",
-      card3Title:"Connect", card3Body:"Meet mentors, peers and communities that open real opportunities.",
-      card4Title:"Grow", card4Body:"Develop the career confidence to walk into any room and deliver."
+      eyebrow:"The MavWise cycle", headline:"Learn. Apply. Earn. Grow.", sub:"Learning only becomes valuable when it's applied. Every participant continuously moves through one cycle of growth.",
+      card1Title:"Learn", card1Body:"Acquire practical knowledge through workshops, coaching, AI-powered learning and financial education.",
+      card2Title:"Apply", card2Body:"Immediately practise every capability through structured real-world experiences inside our Practice Engines\u2122.",
+      card3Title:"Earn", card3Body:"Create meaningful value while developing experience, reputation and real opportunities.",
+      card4Title:"Grow", card4Body:"Build stronger capability, confidence, leadership and character \u2014 then begin the cycle again."
     },
     why: {
-      eyebrow:"Why MavWise", headline:"You don't just collect certificates. You collect experience.",
-      f1Title:"Practical projects", f1Body:"Work on briefs modeled after real industry problems, not textbook exercises.",
-      f2Title:"Industry exposure", f2Body:"Sessions and challenges built alongside people already working in tech.",
-      f3Title:"Mentorship", f3Body:"Direct guidance from mentors who help you avoid the mistakes they made.",
-      f4Title:"Collaboration", f4Body:"Build with a team, the same way you'll build once you're hired.",
-      f5Title:"Technology skills", f5Body:"AI, product and digital fluency that future employers expect by default.",
-      f6Title:"Career preparation", f6Body:"Portfolio, interview readiness and a network that opens doors."
+      eyebrow:"Future-ready capabilities", headline:"You don't just collect certificates. You build capability.",
+      f1Title:"Leadership", f1Body:"Develop the initiative and responsibility future-ready leaders are built on, whether or not you hold a title.",
+      f2Title:"Communication", f2Body:"Every conversation, presentation and challenge strengthens how clearly you express and connect.",
+      f3Title:"Personal finance", f3Body:"Build the financial literacy and confidence that formal education rarely teaches.",
+      f4Title:"AI & technology", f4Body:"Gain hands-on exposure to the AI tools and technology reshaping every industry.",
+      f5Title:"Real-world application", f5Body:"Practise inside real Practice Engines\u2122, not textbook exercises or simulations.",
+      f6Title:"Mentorship", f6Body:"Direct guidance from the MavWise Founding Team as you learn, apply and grow."
     },
     community: {
-      eyebrow:"The movement", headline:"Surround yourself with future builders.",
-      body:"Workshops, innovation events and a community of young people all pushing toward the same thing: being ready for what's next.",
-      tag1:"Workshops", tag2:"Innovation events", tag3:"Team collaboration", tag4:"Networking",
-      cardLabel:"Community snapshot", stat1l:"Members", stat2l:"Events run", stat3l:"Cities"
+      eyebrow:"Phase Zero · First 100", headline:"Become one of our first 100 Founding Partners.",
+      body:"We're not looking for thousands of people. We're looking for the right people \u2014 student leaders who believe the future is created by those who choose to learn, apply and take action, before MavWise's official Soft Launch.",
+      tag1:"Student leadership", tag2:"Real-world application", tag3:"Founding Team mentorship", tag4:"Priority access",
+      cardLabel:"Founding cohort", stat1l:"Founding Partners", stat2l:"Soft launch", stat3l:"Cohort"
     },
     programs: {
-      eyebrow:"Programs", headline:"Pick your path forward", certified:"Certified", join:"Join",
-      p1duration:"8 weeks", p1name:"AI & Future Tech Bootcamp", p1desc:"Build fluency in AI tools, automation and the technology shaping every industry.",
-      p1skill1:"AI Fundamentals", p1skill2:"Prompt Engineering", p1skill3:"Automation",
-      p2duration:"10 weeks", p2name:"Digital Product Building Lab", p2desc:"Design and ship a real app or website from idea to launch, with a live portfolio piece.",
-      p2skill1:"UI/UX Design", p2skill2:"No-Code & Low-Code", p2skill3:"Product Thinking",
-      p3duration:"6 weeks", p3name:"Startup & Innovation Track", p3desc:"Take an idea from concept to pitch, with mentors who've built and sold real companies.",
-      p3skill1:"Entrepreneurship", p3skill2:"Pitching", p3skill3:"Market Research",
-      p4duration:"6 weeks", p4name:"Data & Analytics Sprint", p4desc:"Learn to read data, build dashboards and make decisions employers can trust.",
-      p4skill1:"Data Literacy", p4skill2:"Dashboards", p4skill3:"Decision-Making"
+      eyebrow:"Get involved", headline:"Two ways to start, one ecosystem to grow with.", certified:"Applications open", join:"Apply",
+      p1duration:"First 100", p1name:"Founding Partner", p1desc:"Join the founding generation of university student leaders shaping MavWise from day one, with mentorship, priority access and real-world application through Practice Engines\u2122.",
+      p1skill1:"Leadership", p1skill2:"Practice Engines\u2122", p1skill3:"Mentorship",
+      p2duration:"Internship", p2name:"Founding Execution Team", p2desc:"For university students and fresh graduates ready to help build MavWise itself, across technology, creative media and business, ahead of the official Soft Launch.",
+      p2skill1:"Technology", p2skill2:"Creative Media", p2skill3:"Business",
+      p3duration:"Ongoing", p3name:"Practice Engines\u2122", p3desc:"Structured real-world learning environments where every capability you build gets applied through real conversations, challenges and responsibilities.",
+      p3skill1:"Learn", p3skill2:"Apply", p3skill3:"Grow",
+      p2cert:"Now hiring", p3cert:"Core ecosystem", p2join:"Explore", p3join:"Discover"
     },
     testi: {
-      eyebrow:"Stories", headline:"Built by people like you",
-      q1:"Before MavWise, I only learned theory. Now I have projects and confidence to enter the industry.",
-      n1:"Aiman Zulkifli", r1:"Digital Product Building Lab",
-      q2:"The mentors treated me like a future colleague, not a student. That changed how I see myself.",
-      n2:"Nurul Rahman", r2:"AI & Future Tech Bootcamp",
-      q3:"I walked in with an idea and walked out with a real pitch deck, a team and momentum.",
-      n3:"Sarah Yusof", r3:"Startup & Innovation Track"
+      eyebrow:"Our philosophy", headline:"Confidence is built, never downloaded.",
+      q1:"Every conversation develops communication. Every presentation develops confidence.",
+      n1:"Communication", r1:"Practice Engines\u2122 principle",
+      q2:"Every challenge develops resilience. Every rejection develops emotional strength.",
+      n2:"Resilience", r2:"Practice Engines\u2122 principle",
+      q3:"Every success creates momentum. Every experience prepares you for greater opportunities.",
+      n3:"Momentum", r3:"Practice Engines\u2122 principle"
     },
-    cta: { headline:"Your future won't build itself.", sub:"Join a community of young builders already preparing for what's next.", button:"Join MavWise" },
-    footer: { tagline:"A movement of young people preparing to build the future.", explore:"Explore", follow:"Follow", copy:"© 2026 MavWise. Building the builders.", made:"Made for the future-ready." }
+    cta: { headline:"Applications for our first 100 Founding Partners are open.", sub:"Cohort 2026 \u00b7 Soft Launch September 2026. Learn beyond the classroom, apply what you learn in the real world, and grow alongside an ambitious community.", button:"Become a Founding Partner" },
+    footer: { tagline:"A Youth Development Ecosystem preparing future-ready generations through practical learning, real-world application and meaningful opportunities.", explore:"Explore", follow:"Follow", copy:"\u00a9 2026 Maverick Intelligence Sdn. Bhd. All Rights Reserved.", made:"Phase Zero \u00b7 Soft Launch September 2026.", contact:"Contact", address:"No 11, Jalan 9/6, Taman IKS, Seksyen 9, 43650 Bandar Baru Bangi, Selangor, Malaysia" }
   },
   ms: {
-    nav: { reality:"Realiti", how:"Cara Berfungsi", programs:"Program", community:"Komuniti", cta:"Sertai MavWise" },
+    nav: { reality:"Jurang Ini", how:"Kitaran", programs:"Sertai Kami", community:"Rakan Pengasas", cta:"Jadi Rakan Pengasas" },
     hero: {
-      eyebrow:"Satu pergerakan untuk pembina masa depan",
-      headline:"Ijazah anda hanyalah permulaan.",
-      sub:"Ubah ilmu anda menjadi kemahiran dunia sebenar melalui projek praktikal, bimbingan mentor dan pengalaman bersedia masa depan.",
-      ctaPrimary:"Sertai MavWise", ctaSecondary:"Terokai program",
-      stat1:"Pembina masa depan", stat2:"Mentor industri", stat3:"Kadar penyelesaian",
-      card1:"Asas AI", card2:"Bimbingan Langsung"
+      eyebrow:"Fasa Sifar · Permohonan 100 Rakan Pengasas dibuka",
+      headline:"Universiti sediakan anda dari segi akademik. MavWise sediakan anda untuk kehidupan.",
+      sub:"MavWise ialah Ekosistem Pembangunan Belia yang merapatkan jurang antara pembelajaran akademik dan dunia sebenar, melalui pembelajaran praktikal, aplikasi dunia sebenar dan peluang yang bermakna.",
+      ctaPrimary:"Jadi Rakan Pengasas", ctaSecondary:"Terokai Practice Engines\u2122",
+      stat1:"Rakan Pengasas", stat2:"Pelancaran lembut", stat3:"Kohort",
+      card1:"AI & Teknologi", card2:"Bimbingan Pasukan Pengasas"
     },
     reality: {
       eyebrow:"Jurang ini",
-      headline:"Pendidikan beri anda ilmu. Pengalaman beri anda kelebihan.",
-      body:"Kebanyakan pelajar bergraduat dengan teori, sijil dan ilmu, tetapi tanpa pengalaman praktikal yang dicari oleh majikan. MavWise merapatkan jurang ini.",
-      withoutLabel:"Tanpa MavWise", withLabel:"Dengan MavWise",
-      without1:"Teori, tetapi pengalaman praktikal terhad", without2:"Sijil, tetapi tiada portfolio sebenar", without3:"Ilmu, tetapi keyakinan rendah",
-      with1:"Projek sebenar yang anda bina dan lancarkan", with2:"Portfolio langsung yang boleh dilihat majikan", with3:"Maklum balas mentor dan keyakinan sedia industri"
+      headline:"Ilmu semata-mata sudah tidak mencukupi.",
+      body:"Pendidikan tradisional berjaya membekalkan ilmu kepada generasi demi generasi, tetapi majikan hari ini mencari graduan yang boleh berkomunikasi, bekerjasama, menyelesaikan masalah dan mencipta nilai sejak hari pertama. Itulah sebabnya Practice Engines\u2122 diwujudkan, bukan untuk menggantikan pendidikan, tetapi untuk melengkapkannya.",
+      withoutLabel:"Tanpa Practice Engines\u2122", withLabel:"Dengan Practice Engines\u2122",
+      without1:"Teori dipelajari, jarang diamalkan", without2:"Sijil, tetapi tiada pengalaman sebenar", without3:"Kemahiran hanya dibina selepas mula bekerja",
+      with1:"Setiap pelajaran menjadi peluang untuk berlatih", with2:"Perbualan sebenar, cabaran sebenar, tanggungjawab sebenar", with3:"Keyakinan dibina melalui tindakan berterusan, bukan teori"
     },
     how: {
-      eyebrow:"Perjalanan", headline:"Cara MavWise berfungsi", sub:"Empat peringkat yang mengubah apa yang anda tahu kepada apa yang anda boleh lakukan.",
-      card1Title:"Belajar", card1Body:"Peroleh ilmu bersedia masa depan merangkumi AI, teknologi dan kemahiran industri moden.",
-      card2Title:"Bina", card2Body:"Cipta projek dunia sebenar yang menjadi portfolio untuk ditunjukkan kepada majikan.",
-      card3Title:"Berhubung", card3Body:"Temui mentor, rakan sebaya dan komuniti yang membuka peluang sebenar.",
-      card4Title:"Berkembang", card4Body:"Bina keyakinan kerjaya untuk melangkah ke mana-mana ruang dan memberi hasil."
+      eyebrow:"Kitaran MavWise", headline:"Belajar. Amal. Peroleh. Berkembang.", sub:"Pembelajaran hanya bernilai apabila diamalkan. Setiap peserta terus bergerak melalui satu kitaran pertumbuhan.",
+      card1Title:"Belajar", card1Body:"Peroleh ilmu praktikal melalui bengkel, bimbingan (coaching), pembelajaran berkuasa AI dan pendidikan kewangan.",
+      card2Title:"Amal", card2Body:"Amalkan setiap kemahiran serta-merta melalui pengalaman dunia sebenar dalam Practice Engines\u2122 kami.",
+      card3Title:"Peroleh", card3Body:"Cipta nilai bermakna sambil membina pengalaman, reputasi dan peluang sebenar.",
+      card4Title:"Berkembang", card4Body:"Bina kemahiran, keyakinan, kepimpinan dan sahsiah yang lebih kukuh, kemudian mulakan kitaran semula."
     },
     why: {
-      eyebrow:"Kenapa MavWise", headline:"Anda bukan sekadar kumpul sijil. Anda kumpul pengalaman.",
-      f1Title:"Projek praktikal", f1Body:"Kerjakan brief berdasarkan masalah industri sebenar, bukan latihan buku teks.",
-      f2Title:"Pendedahan industri", f2Body:"Sesi dan cabaran dibina bersama individu yang sudah bekerja dalam bidang teknologi.",
-      f3Title:"Bimbingan mentor", f3Body:"Panduan langsung daripada mentor yang membantu anda mengelak kesilapan mereka.",
-      f4Title:"Kolaborasi", f4Body:"Bina bersama pasukan, sama seperti anda akan lakukan apabila diambil bekerja.",
-      f5Title:"Kemahiran teknologi", f5Body:"Kefasihan AI, produk dan digital yang dijangka oleh majikan masa depan.",
-      f6Title:"Persediaan kerjaya", f6Body:"Portfolio, kesediaan temu duga dan rangkaian yang membuka peluang."
+      eyebrow:"Kemahiran bersedia masa depan", headline:"Anda bukan sekadar kumpul sijil. Anda bina kemahiran.",
+      f1Title:"Kepimpinan", f1Body:"Bina inisiatif dan tanggungjawab yang menjadi asas pemimpin masa depan, dengan atau tanpa jawatan.",
+      f2Title:"Komunikasi", f2Body:"Setiap perbualan, pembentangan dan cabaran mengukuhkan cara anda menyampaikan dan berhubung.",
+      f3Title:"Kewangan peribadi", f3Body:"Bina literasi dan keyakinan kewangan yang jarang diajar dalam pendidikan formal.",
+      f4Title:"AI & teknologi", f4Body:"Peroleh pendedahan praktikal kepada alat AI dan teknologi yang membentuk semula setiap industri.",
+      f5Title:"Aplikasi dunia sebenar", f5Body:"Berlatih dalam Practice Engines\u2122 sebenar, bukan latihan buku teks atau simulasi.",
+      f6Title:"Bimbingan mentor", f6Body:"Panduan langsung daripada Pasukan Pengasas MavWise semasa anda belajar, mengamal dan berkembang."
     },
     community: {
-      eyebrow:"Pergerakan ini", headline:"Kelilingi diri anda dengan pembina masa depan.",
-      body:"Bengkel, acara inovasi dan komuniti generasi muda yang sama-sama menuju satu matlamat: bersedia untuk masa depan.",
-      tag1:"Bengkel", tag2:"Acara inovasi", tag3:"Kolaborasi berpasukan", tag4:"Rangkaian",
-      cardLabel:"Gambaran komuniti", stat1l:"Ahli", stat2l:"Acara dijalankan", stat3l:"Bandar"
+      eyebrow:"Fasa Sifar · 100 Pertama", headline:"Jadi salah seorang daripada 100 Rakan Pengasas pertama kami.",
+      body:"Kami tidak mencari beribu-ribu orang. Kami mencari orang yang tepat, iaitu pemimpin pelajar yang percaya masa depan dicipta oleh mereka yang memilih untuk belajar, mengamal dan bertindak, sebelum Pelancaran Lembut rasmi MavWise.",
+      tag1:"Kepimpinan pelajar", tag2:"Aplikasi dunia sebenar", tag3:"Bimbingan Pasukan Pengasas", tag4:"Akses keutamaan",
+      cardLabel:"Kohort pengasas", stat1l:"Rakan Pengasas", stat2l:"Pelancaran lembut", stat3l:"Kohort"
     },
     programs: {
-      eyebrow:"Program", headline:"Pilih laluan anda", certified:"Bersijil", join:"Sertai",
-      p1duration:"8 minggu", p1name:"Bootcamp AI & Teknologi Masa Depan", p1desc:"Bina kefasihan dalam alat AI, automasi dan teknologi yang membentuk setiap industri.",
-      p1skill1:"Asas AI", p1skill2:"Kejuruteraan Prom", p1skill3:"Automasi",
-      p2duration:"10 minggu", p2name:"Makmal Pembinaan Produk Digital", p2desc:"Reka dan lancarkan aplikasi atau laman web sebenar dari idea hingga pelancaran, dengan portfolio langsung.",
-      p2skill1:"Reka Bentuk UI/UX", p2skill2:"No-Code & Low-Code", p2skill3:"Pemikiran Produk",
-      p3duration:"6 minggu", p3name:"Trek Startup & Inovasi", p3desc:"Bawa idea dari konsep ke pic, bersama mentor yang pernah membina dan menjual syarikat sebenar.",
-      p3skill1:"Keusahawanan", p3skill2:"Pic Jualan", p3skill3:"Kajian Pasaran",
-      p4duration:"6 minggu", p4name:"Sprint Data & Analitik", p4desc:"Belajar membaca data, bina papan pemuka dan buat keputusan yang dipercayai majikan.",
-      p4skill1:"Literasi Data", p4skill2:"Papan Pemuka", p4skill3:"Membuat Keputusan"
+      eyebrow:"Sertai kami", headline:"Dua cara untuk bermula, satu ekosistem untuk berkembang bersama.", certified:"Permohonan dibuka", join:"Mohon",
+      p1duration:"100 Pertama", p1name:"Rakan Pengasas", p1desc:"Sertai generasi pengasas pemimpin pelajar universiti yang membentuk MavWise sejak hari pertama, dengan bimbingan, akses keutamaan dan aplikasi dunia sebenar melalui Practice Engines\u2122.",
+      p1skill1:"Kepimpinan", p1skill2:"Practice Engines\u2122", p1skill3:"Bimbingan Mentor",
+      p2duration:"Internship", p2name:"Pasukan Pelaksana Pengasas", p2desc:"Untuk pelajar universiti dan graduan baharu yang bersedia membantu membina MavWise itu sendiri, merentasi teknologi, media kreatif dan perniagaan, sebelum Pelancaran Lembut rasmi.",
+      p2skill1:"Teknologi", p2skill2:"Media Kreatif", p2skill3:"Perniagaan",
+      p3duration:"Berterusan", p3name:"Practice Engines\u2122", p3desc:"Persekitaran pembelajaran dunia sebenar yang tersusun, di mana setiap kemahiran yang anda bina diamalkan melalui perbualan, cabaran dan tanggungjawab sebenar.",
+      p3skill1:"Belajar", p3skill2:"Amal", p3skill3:"Berkembang",
+      p2cert:"Sedang mengambil", p3cert:"Teras ekosistem", p2join:"Terokai", p3join:"Ketahui lagi"
     },
     testi: {
-      eyebrow:"Kisah", headline:"Dibina oleh orang seperti anda",
-      q1:"Sebelum MavWise, saya hanya belajar teori. Kini saya ada projek dan keyakinan untuk melangkah ke industri.",
-      n1:"Aiman Zulkifli", r1:"Makmal Pembinaan Produk Digital",
-      q2:"Mentor melayan saya seperti bakal rakan sekerja, bukan pelajar. Itu mengubah cara saya melihat diri sendiri.",
-      n2:"Nurul Rahman", r2:"Bootcamp AI & Teknologi Masa Depan",
-      q3:"Saya masuk dengan satu idea dan keluar dengan pic deck sebenar, satu pasukan dan momentum.",
-      n3:"Sarah Yusof", r3:"Trek Startup & Inovasi"
+      eyebrow:"Falsafah kami", headline:"Keyakinan dibina, bukan dimuat turun.",
+      q1:"Setiap perbualan membina komunikasi. Setiap pembentangan membina keyakinan.",
+      n1:"Komunikasi", r1:"Prinsip Practice Engines\u2122",
+      q2:"Setiap cabaran membina daya tahan. Setiap penolakan membina kekuatan emosi.",
+      n2:"Daya Tahan", r2:"Prinsip Practice Engines\u2122",
+      q3:"Setiap kejayaan mencipta momentum. Setiap pengalaman menyediakan anda untuk peluang yang lebih besar.",
+      n3:"Momentum", r3:"Prinsip Practice Engines\u2122"
     },
-    cta: { headline:"Masa depan anda tidak akan terbina sendiri.", sub:"Sertai komuniti pembina muda yang sudah bersedia untuk masa depan.", button:"Sertai MavWise" },
-    footer: { tagline:"Satu pergerakan generasi muda bersedia membina masa depan.", explore:"Terokai", follow:"Ikuti", copy:"© 2026 MavWise. Membina para pembina.", made:"Dibina untuk generasi bersedia masa depan." }
+    cta: { headline:"Permohonan untuk 100 Rakan Pengasas pertama kami kini dibuka.", sub:"Kohort 2026 \u00b7 Pelancaran Lembut September 2026. Belajar melangkaui bilik kuliah, amalkan apa yang anda pelajari di dunia sebenar, dan berkembang bersama komuniti yang bercita-cita tinggi.", button:"Jadi Rakan Pengasas" },
+    footer: { tagline:"Ekosistem Pembangunan Belia yang menyediakan generasi bersedia masa depan melalui pembelajaran praktikal, aplikasi dunia sebenar dan peluang yang bermakna.", explore:"Terokai", follow:"Ikuti", copy:"\u00a9 2026 Maverick Intelligence Sdn. Bhd. Hak Cipta Terpelihara.", made:"Fasa Sifar \u00b7 Pelancaran Lembut September 2026.", contact:"Hubungi", address:"No 11, Jalan 9/6, Taman IKS, Seksyen 9, 43650 Bandar Baru Bangi, Selangor, Malaysia" }
   }
 };
 
