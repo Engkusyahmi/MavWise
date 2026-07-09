@@ -12,7 +12,7 @@ const I18N = {
       headline:"University prepares you academically. MavWise prepares you for life.",
       sub:"MavWise is a Youth Development Ecosystem that bridges the gap between academic learning and the real world — through practical learning, real-world application and meaningful opportunities.",
       ctaPrimary:"Become a Founding Partner", ctaSecondary:"Explore Practice Engines\u2122",
-      stat1:"Founding Partners", stat2:"Soft launch", stat3:"Cohort",
+      stat1:"Founding Partners", stat2:"Cohort", stat3:"University leaders",
       card1:"AI & Technology", card2:"Founding Team Mentorship"
     },
     reality: {
@@ -43,7 +43,7 @@ const I18N = {
       eyebrow:"Phase Zero · First 100", headline:"Become one of our first 100 Founding Partners.",
       body:"We're not looking for thousands of people. We're looking for the right people \u2014 student leaders who believe the future is created by those who choose to learn, apply and take action, before MavWise's official Soft Launch.",
       tag1:"Student leadership", tag2:"Real-world application", tag3:"Founding Team mentorship", tag4:"Priority access",
-      cardLabel:"Founding cohort", stat1l:"Founding Partners", stat2l:"Soft launch", stat3l:"Cohort"
+      cardLabel:"Founding cohort", stat1l:"Founding Partners", stat2l:"Cohort", stat3l:"University leaders"
     },
     programs: {
       eyebrow:"Get involved", headline:"Two ways to start, one ecosystem to grow with.", certified:"Applications open", join:"Apply",
@@ -62,8 +62,8 @@ const I18N = {
       q3:"Every success creates momentum. Every experience prepares you for greater opportunities.",
       n3:"Momentum", r3:"Practice Engines\u2122 principle"
     },
-    cta: { headline:"Applications for our first 100 Founding Partners are open.", sub:"Cohort 2026 \u00b7 Soft Launch September 2026. Learn beyond the classroom, apply what you learn in the real world, and grow alongside an ambitious community.", button:"Become a Founding Partner" },
-    footer: { tagline:"A Youth Development Ecosystem preparing future-ready generations through practical learning, real-world application and meaningful opportunities.", explore:"Explore", follow:"Follow", copy:"\u00a9 2026 Maverick Intelligence Sdn. Bhd. All Rights Reserved.", made:"Phase Zero \u00b7 Soft Launch September 2026.", contact:"Contact", address:"No 11, Jalan 9/6, Taman IKS, Seksyen 9, 43650 Bandar Baru Bangi, Selangor, Malaysia" }
+    cta: { headline:"Applications for our first 100 Founding Partners are open.", sub:"Cohort 2026. Learn beyond the classroom, apply what you learn in the real world, and grow alongside an ambitious community.", button:"Become a Founding Partner" },
+    footer: { tagline:"A Youth Development Ecosystem preparing future-ready generations through practical learning, real-world application and meaningful opportunities.", explore:"Explore", follow:"Follow", copy:"\u00a9 2026 Maverick Intelligence Sdn. Bhd. All Rights Reserved.", made:"Phase Zero \u00b7 First 100 Founding Partners.", contact:"Contact", address:"No 11, Jalan 9/6, Taman IKS, Seksyen 9, 43650 Bandar Baru Bangi, Selangor, Malaysia" }
   },
   ms: {
     nav: { reality:"Jurang Ini", how:"Kitaran", programs:"Sertai Kami", community:"Rakan Pengasas", cta:"Jadi Rakan Pengasas" },
@@ -72,7 +72,7 @@ const I18N = {
       headline:"Universiti sediakan anda dari segi akademik. MavWise sediakan anda untuk kehidupan.",
       sub:"MavWise ialah Ekosistem Pembangunan Belia yang merapatkan jurang antara pembelajaran akademik dan dunia sebenar, melalui pembelajaran praktikal, aplikasi dunia sebenar dan peluang yang bermakna.",
       ctaPrimary:"Jadi Rakan Pengasas", ctaSecondary:"Terokai Practice Engines\u2122",
-      stat1:"Rakan Pengasas", stat2:"Pelancaran lembut", stat3:"Kohort",
+      stat1:"Rakan Pengasas", stat2:"Kohort", stat3:"Pemimpin universiti",
       card1:"AI & Teknologi", card2:"Bimbingan Pasukan Pengasas"
     },
     reality: {
@@ -103,7 +103,7 @@ const I18N = {
       eyebrow:"Fasa Sifar · 100 Pertama", headline:"Jadi salah seorang daripada 100 Rakan Pengasas pertama kami.",
       body:"Kami tidak mencari beribu-ribu orang. Kami mencari orang yang tepat, iaitu pemimpin pelajar yang percaya masa depan dicipta oleh mereka yang memilih untuk belajar, mengamal dan bertindak, sebelum Pelancaran Lembut rasmi MavWise.",
       tag1:"Kepimpinan pelajar", tag2:"Aplikasi dunia sebenar", tag3:"Bimbingan Pasukan Pengasas", tag4:"Akses keutamaan",
-      cardLabel:"Kohort pengasas", stat1l:"Rakan Pengasas", stat2l:"Pelancaran lembut", stat3l:"Kohort"
+      cardLabel:"Kohort pengasas", stat1l:"Rakan Pengasas", stat2l:"Kohort", stat3l:"Pemimpin universiti"
     },
     programs: {
       eyebrow:"Sertai kami", headline:"Dua cara untuk bermula, satu ekosistem untuk berkembang bersama.", certified:"Permohonan dibuka", join:"Mohon",
@@ -122,8 +122,8 @@ const I18N = {
       q3:"Setiap kejayaan mencipta momentum. Setiap pengalaman menyediakan anda untuk peluang yang lebih besar.",
       n3:"Momentum", r3:"Prinsip Practice Engines\u2122"
     },
-    cta: { headline:"Permohonan untuk 100 Rakan Pengasas pertama kami kini dibuka.", sub:"Kohort 2026 \u00b7 Pelancaran Lembut September 2026. Belajar melangkaui bilik kuliah, amalkan apa yang anda pelajari di dunia sebenar, dan berkembang bersama komuniti yang bercita-cita tinggi.", button:"Jadi Rakan Pengasas" },
-    footer: { tagline:"Ekosistem Pembangunan Belia yang menyediakan generasi bersedia masa depan melalui pembelajaran praktikal, aplikasi dunia sebenar dan peluang yang bermakna.", explore:"Terokai", follow:"Ikuti", copy:"\u00a9 2026 Maverick Intelligence Sdn. Bhd. Hak Cipta Terpelihara.", made:"Fasa Sifar \u00b7 Pelancaran Lembut September 2026.", contact:"Hubungi", address:"No 11, Jalan 9/6, Taman IKS, Seksyen 9, 43650 Bandar Baru Bangi, Selangor, Malaysia" }
+    cta: { headline:"Permohonan untuk 100 Rakan Pengasas pertama kami kini dibuka.", sub:"Kohort 2026. Belajar melangkaui bilik kuliah, amalkan apa yang anda pelajari di dunia sebenar, dan berkembang bersama komuniti yang bercita-cita tinggi.", button:"Jadi Rakan Pengasas" },
+    footer: { tagline:"Ekosistem Pembangunan Belia yang menyediakan generasi bersedia masa depan melalui pembelajaran praktikal, aplikasi dunia sebenar dan peluang yang bermakna.", explore:"Terokai", follow:"Ikuti", copy:"\u00a9 2026 Maverick Intelligence Sdn. Bhd. Hak Cipta Terpelihara.", made:"Fasa Sifar \u00b7 100 Rakan Pengasas Pertama.", contact:"Hubungi", address:"No 11, Jalan 9/6, Taman IKS, Seksyen 9, 43650 Bandar Baru Bangi, Selangor, Malaysia" }
   }
 };
 
