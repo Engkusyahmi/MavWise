@@ -12,7 +12,7 @@ const I18N = {
       headline:"University prepares you academically. MavWise prepares you for life.",
       sub:"MavWise is a Youth Development Ecosystem that bridges the gap between academic learning and the real world — through practical learning, real-world application and meaningful opportunities.",
       ctaPrimary:"Become a Founding Partner", ctaSecondary:"Explore Practice Engines\u2122",
-      stat1:"Founding Partners", stat2:"Cohort", stat3:"University leaders",
+      stat1:"Founding Partners", stat2:"Soft launch", stat3:"University leaders",
       card1:"AI & Technology", card2:"Founding Team Mentorship"
     },
     reality: {
@@ -43,7 +43,7 @@ const I18N = {
       eyebrow:"Phase Zero · First 100", headline:"Become one of our first 100 Founding Partners.",
       body:"We're not looking for thousands of people. We're looking for the right people \u2014 student leaders who believe the future is created by those who choose to learn, apply and take action, before MavWise's official Soft Launch.",
       tag1:"Student leadership", tag2:"Real-world application", tag3:"Founding Team mentorship", tag4:"Priority access",
-      cardLabel:"Founding cohort", stat1l:"Founding Partners", stat2l:"Cohort", stat3l:"University leaders"
+      cardLabel:"Founding cohort", stat1l:"Founding Partners", stat2l:"Soft launch", stat3l:"University leaders"
     },
     programs: {
       eyebrow:"Get involved", headline:"Two ways to start, one ecosystem to grow with.", certified:"Applications open", join:"Apply",
@@ -72,7 +72,7 @@ const I18N = {
       headline:"Universiti sediakan anda dari segi akademik. MavWise sediakan anda untuk kehidupan.",
       sub:"MavWise ialah Ekosistem Pembangunan Belia yang merapatkan jurang antara pembelajaran akademik dan dunia sebenar, melalui pembelajaran praktikal, aplikasi dunia sebenar dan peluang yang bermakna.",
       ctaPrimary:"Jadi Rakan Pengasas", ctaSecondary:"Terokai Practice Engines\u2122",
-      stat1:"Rakan Pengasas", stat2:"Kohort", stat3:"Pemimpin universiti",
+      stat1:"Rakan Pengasas", stat2:"Pelancaran lembut", stat3:"Pemimpin universiti",
       card1:"AI & Teknologi", card2:"Bimbingan Pasukan Pengasas"
     },
     reality: {
@@ -103,7 +103,7 @@ const I18N = {
       eyebrow:"Fasa Sifar · 100 Pertama", headline:"Jadi salah seorang daripada 100 Rakan Pengasas pertama kami.",
       body:"Kami tidak mencari beribu-ribu orang. Kami mencari orang yang tepat, iaitu pemimpin pelajar yang percaya masa depan dicipta oleh mereka yang memilih untuk belajar, mengamal dan bertindak, sebelum Pelancaran Lembut rasmi MavWise.",
       tag1:"Kepimpinan pelajar", tag2:"Aplikasi dunia sebenar", tag3:"Bimbingan Pasukan Pengasas", tag4:"Akses keutamaan",
-      cardLabel:"Kohort pengasas", stat1l:"Rakan Pengasas", stat2l:"Kohort", stat3l:"Pemimpin universiti"
+      cardLabel:"Kohort pengasas", stat1l:"Rakan Pengasas", stat2l:"Pelancaran lembut", stat3l:"Pemimpin universiti"
     },
     programs: {
       eyebrow:"Sertai kami", headline:"Dua cara untuk bermula, satu ekosistem untuk berkembang bersama.", certified:"Permohonan dibuka", join:"Mohon",
@@ -196,4 +196,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // scroll reveal
   initScrollReveal();
+
+  // scroll-aware glass nav
+  const siteNav = document.querySelector('.site-nav');
+  let navTicking = false;
+  window.addEventListener('scroll', () => {
+    if (navTicking) return;
+    navTicking = true;
+    requestAnimationFrame(() => {
+      siteNav?.classList.toggle('scrolled', window.scrollY > 12);
+      navTicking = false;
+    });
+  }, { passive: true });
+
+  // interactive cursor spotlight on cards (fine pointers only)
+  if (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    const spotlightEls = document.querySelectorAll('.reality-card, .bento-item, .program-card, .testi-card, .community-panel');
+    spotlightEls.forEach(el => {
+      el.addEventListener('pointermove', (e) => {
+        const rect = el.getBoundingClientRect();
+        el.style.setProperty('--mx', `${e.clientX - rect.left}px`);
+        el.style.setProperty('--my', `${e.clientY - rect.top}px`);
+      });
+    });
+  }
 });
